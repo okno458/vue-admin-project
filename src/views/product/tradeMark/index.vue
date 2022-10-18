@@ -12,7 +12,7 @@
         prop:对应列内容的字段名
         注意事项：elementui中的 tabel组件 数据是以一列进行展示的
       -->
-    <el-table :data="list"  style="width: 100%" border >
+    <el-table :data="list" style="width: 100%" border >
       <el-table-column prop="prop" label="序号" width="80px" align="center" type="index">
       </el-table-column>
       <el-table-column prop="tmName" label="品牌名称" width="width">
